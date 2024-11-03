@@ -4,6 +4,7 @@
     padding: 0%;
 }
 body {
+    background: linear-gradient(to left, #0011ff, #000000);
     box-sizing: border-box;
     height: 100vh;
     background-color: rgb(0, 0, 0);
@@ -34,17 +35,17 @@ body {
 }
 .Links__link{
     color: black;
-    background-color: #00c3ff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 100px;
+    background: linear-gradient(to right, #00c3ff, #ff0303fb);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
     text-align: center;
-    border-radius: 15px;
-    padding: 5px 15px;
+    border-radius: 23px;
+    padding: 5px 9px;
 }
 img{
     width: 500px;
     height: 330px;
     border-radius: 10%;
-    border-style: double;
+    border-style: groove;
     border-color: rgb(255, 255, 255);
 }
